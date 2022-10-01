@@ -1,12 +1,14 @@
-﻿using System;
+﻿using Chess.Engine;
+using System;
 
-namespace Chess.Console
+namespace Chess.ConsoleApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var greet = new Greetings(new ShowColorConsole());
+            greet.ShowGreet();
         }
     }
 }
