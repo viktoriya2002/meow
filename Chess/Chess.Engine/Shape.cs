@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Chess.Engine
 {
-    class Shape
+    public class Shape
     {
+        public int Color { get; set; }
+        public int Name { get; set; }
     }
 }

@@ -8,6 +8,7 @@ namespace Chess.Engine
 {
     public class Field
     {
+        private Shape[,] _shapes = new Shape[8, 8];
 
     }
 }
